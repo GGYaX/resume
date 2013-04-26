@@ -1,0 +1,115 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Copyright 2010-2011 Mark Liu (markwayneliu@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper]{moderncv}
+
+\usepackage{verbatim}
+
+% moderncv themes
+\moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage[francais]{babel}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+
+% personal data
+\firstname{Yanxin}
+\familyname{GONG}
+\title{Curriculum Vitae}
+\address{32 rue eugene jacquet}{60200 COMPIEGNE}    % optional, remove the line if not wanted
+\mobile{+33 06 30 02 14 80}                    % optional, remove the line if not wanted
+\email{yanxin.gong22@gmail.com}                      % optional, remove the line if not wanted
+%\homepage{http://markliu.me}                % optional, remove the line if not wanted
+\extrainfo{Nationnalité: chinois} % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{2011--Present}{Système du Réseau Informatique en génie informatique}{UTC Université Technologie de Compiègne}{promo 2014}{}{}
+% \cvline{advisor:}{\small Professor Mutlu Ozdogan}
+% \cvline{advisor:}{\small Professor Eric Bach}
+\cventry{2009--2011}{Cycle préparatoire intégré en math-physique}{ESIGELEC}{}{}{}
+% \cvline{gpa:}{\small 3.76/4.0}
+% \cvline{honors:}{\small Cum Laude}
+
+
+\section{Expérience professionelle}
+
+\cventry{2012}{Développeur BIG DATA et cloud computing}{Samber Valley}{NodeJS, MongoDB, websocket}{Stage de 6 mois}
+{
+- Codage d'un serveur statistique en NodeJS avec Query-language de \textbf{MongoDB}, un publish-subscribe système à \textbf{temps réel}.\newline
+- \textbf{Amélioration de la performance} de calcule : streaming, bon choix de l'index, fragmentation des tables.\newline
+- BIG DATA traité avec \textbf{mapreduce}.
+}
+
+\cventry{}{Projet conception de base de données}{}{}{projet à 4 étudiants durant 5 mois}
+{
+- \textbf{Modélisation} conceptuelle en UML, relationnelle et organisation du projet.\newline
+- Développment effectué en PostgresSQL, PHP.
+}
+
+\cventry{2010--2011}{Projet personnel}{jeu de labyrinthe}{C}{}
+{
+- Construction et programmation de l'algoritheme.
+}
+
+\cventry{}{Membre}{Association des Etudiants Chinois à Rouen}{}{}
+{
+- Organisation des activiés de l'association.
+}
+
+\section{Communauté}
+
+\section{Langues et informatique}
+% \subsection{Extremely Proficient With}
+% \cvline{languages}{C, C++, Python, Ruby, JavaScript, Matlab, HTML, CSS, JSON}
+% \cvline{technologies}{Django, Rails, Drupal CMS, MySQL, SQLite, \LaTeX{}, Bash Scripting, Git, Vim, PostgreSQL, jQuery, Bootstrap, Backbone, Windows, Ubuntu \& Red Hat Linux, OSX}
+% \subsection{Have Experience With}
+% \cvline{languages}{PHP, Java, Objective C, Fortran, Perl, Scheme, OCaml, ML, Lisp, Prolog, VHDL, IDL}
+% \cvline{technologies}{Apache, Nginx, DB2, Joomla CMS, Dragonfly CMS, Emacs, Flash, Photoshop, Seashore, HAML, SQL Server, ENVI, Visual Studio, Eclipse, .NET}
+% \subsection{Langues}
+\cvline{Langues}
+{
+- Mandarin(langue maternelle), Cantonnais.\newline
+- Français, bonne maîtrise, certificat niveau B2 obtenu en 2009.\newline
+- Anglais, avancé, niveau B2.
+}
+% \subsection{Informatiques}
+\cvline{Informatiques}
+{
+- C, NodeJS, JS, CSS.\newline
+- PHP, SQL, MongoDB
+- Shell, bash
+}
+
+\section{Divers}
+% \subsection{University of California, Los Angeles}
+% \cvline{computer science}{Programming in C++, Digital Design, VHDL, CAD tools, Machine Language (MIPS), Computer Network Fundamentals, Physical Layer of Computer Networks, Programming Languages, Computer Architecture, Algorithms, Complexity Theory, Databases, Operating Systems, Digital Graphics}
+% \cvline{electrical engineering}{Electromagnetics, Semiconductors, Systems and Signals, Circuit Analysis}
+\cvline{Kung-fu}{Compétition depuis l'âge de 6 ans}
+\cvline{Basketball}{Depuis l'âge de 15 ans}
+
+\end{document}
